@@ -43,6 +43,7 @@ FROM university_rankings;
 ```
 
 * Returns the total number of rows in the dataset.
+* There are a total of 1645 rows.
 
 ### 1.2 Maximum, Minimum, and Sum
 
@@ -54,6 +55,7 @@ FROM university_rankings;
 ```
 
 * Identifies the highest and lowest ranks and sums all scores.
+* The maximum rank is 1000, the min rank is 1, and the total score is 80542.97
 
 ### 1.3 Average Score per Year
 
@@ -64,6 +66,13 @@ GROUP BY year;
 ```
 
 * Shows the average score of universities per year (2012–2015).
+
+| Year | Avg Score   
+| --   | ---                |
+| 2012 | 54.9409            |
+| 2013 | 55.2712            |
+| 2014 | 47.285824175824175 |
+| 2015 | 49.97443693693694  |
 
 ---
 
